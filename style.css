@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: rgb(43, 43, 164) ;
+    color: ghostwhite;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#tempo {
+    background-color: rgb(9, 9, 87);
+    height: 250px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+#relogio {
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgb(9, 9, 87);
+    box-shadow: -10px 12px 15px 5px rgb(5, 4, 14);
+    border-radius: 2rem;
+
+}
+button {
+    background-color: rgb(107, 107, 250);
+    width: 90px;
+    height: 50px;
+    color:white;
+    font-size: 20px;
+    border-radius: 1rem;
+    box-shadow: -8px 2px 2px   rgb(5, 4, 14);
+    transition: backgroud-color 2s ease-in;
+}
+button:hover {
+    background-color:rgb(41, 41, 212);
+    
+}
